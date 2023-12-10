@@ -1,0 +1,169 @@
+
+/* Styling Skills Page*/
+
+.skill-section h2{
+    font-size: 28px;
+    margin-block:30px;
+    margin-inline:20px;
+}
+
+.container{
+    margin:30px;
+    background-color: white;
+    padding:30px;
+    display: flex;
+}
+
+.container .leftside,.container .rightside{
+    width:50%;
+}
+
+.bar-html{
+    width:90%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatehtml ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatehtml{
+    from{width:10%;}
+    to{width:90%;}
+}
+
+.bar-css{
+    width:70%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatecss ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatecss{
+    from{width:10%;}
+    to{width:70%;}
+}
+
+.bar-js{
+    width:80%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatejs ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatejs{
+    from{width:10%;}
+    to{width:80%;}
+}
+
+.bar-nodejs{
+    width:60%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatenodejs ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatenodejs{
+    from{width:10%;}
+    to{width:60%;}
+}
+
+.bar-jquery{
+    width:50%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatejquery ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatejquery{
+    from{width:10%;}
+    to{width:50%;}
+}
+
+.bar-react{
+    width:60%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatereact ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatereact{
+    from{width:10%;}
+    to{width:60%;}
+}
+
+.bar-python{
+    width:85%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatepython ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatepython{
+    from{width:10%;}
+    to{width:85%;}
+}
+
+.bar-c{
+    width:80%;
+    height:10px;
+    background-color:rgb(122, 27, 130);
+    border: none;
+    border-radius: 30px;
+    animation-name: animatec ,color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatec{
+    from{width:10%;}
+    to{width:80%;}
+}
+
+@keyframes color{
+    from{background-color:rgb(122, 27, 130);}
+    to{background-color:rgb(122, 27, 130);}
+}
+
+.progress-bar-div p,.bar-content div,.bar-content span{
+    margin-block:20px;
+}
+
+.progress-bar-div{
+    font-size: 18px;
+}

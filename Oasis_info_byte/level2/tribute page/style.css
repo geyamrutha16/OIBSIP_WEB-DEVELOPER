@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-slide{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color:black;
+}
+.first-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-main h1{
+    font-size: 38px;
+}
+.first-main h1, h2{
+    margin-bottom: 10px;
+}
+.first-main i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.second-slide{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color:white;
+}
+.second-slide .left{
+    width:65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-slide .left p{
+    font-size: 34px;
+}
+.second-slide .right img{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-slide{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color:black;
+}
+.third-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 25%;
+    font-size: 30px;
+}
+.third-main h1{
+    font-size: 38px;
+    margin-block: 30px;
+}
+.third-main hr{
+    margin-block: 40px;
+    background-color: rgb(28, 27, 27);
+    height: 3px;
+    width: 100%;
+}
+.third-main span{
+    font-size: 16px;
+}
